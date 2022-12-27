@@ -1,0 +1,218 @@
+inherited frmProduto_XLgXhdpiTb: TfrmProduto_XLgXhdpiTb
+  ClientHeight = 1255
+  ClientWidth = 800
+  DesignerMasterStyle = 3
+  inherited TabControlClientes: TTabControl
+    Size.Width = 800.000000000000000000
+    Size.Height = 1255.000000000000000000
+    Sizes = (
+      800s
+      1255s
+      800s
+      1255s
+      800s
+      1255s)
+    inherited TabLista: TTabItem
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar1: TToolBar
+        Size.Width = 800.000000000000000000
+        inherited Label1: TLabel
+          Size.Width = 800.000000000000000000
+        end
+      end
+      inherited Rectangle1: TRectangle
+        Size.Width = 790.000000000000000000
+        inherited Layout3: TLayout
+          Size.Width = 790.000000000000000000
+          inherited edtPesquisar: TEdit
+            Size.Width = 780.000000000000000000
+          end
+        end
+      end
+      inherited ListView1: TListView
+        Size.Width = 790.000000000000000000
+        Size.Height = 1142.000000000000000000
+        ItemAppearanceObjects.ItemObjects.Detail.Font.StyleExt = {00060000000000000004000000}
+        inherited Layout5: TLayout
+          Position.X = 723.000000000000000000
+          Size.Height = 1142.000000000000000000
+          inherited Image11: TImage
+            MultiResBitmap.Height = 64
+            MultiResBitmap.Width = 64
+            MultiResBitmap = <
+              item
+                Width = 64
+                Height = 64
+                PNG = {
+                  89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+                  DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  051249444154785EED9B5D681C5514C7CFBDB3DB80D9A6589BA0F1A36A402185
+                  481A0A6205CDA6D2979A82622AB520B6F4A105C13E94FA567C11B50F011FF4C9
+                  2FA881442A34FA226D92165404494A1E5C10545AC5159A90E27653487667AEE7
+                  DC39D96C9ADDF9D89D4D76F7FA83CDCEBDB3C9CEFF9FFB71EE9D33026A4CF7D4
+                  58A2C5C9278582C795844E50F812F8027CE5F53B400CD2F8338DE7D2782E2D1C
+                  482B017F2CC9D864AA7F28AB3F53236A62C05397471F9460BF28A41A04709200
+                  560B9F0A89BD0420279523C61DB0BE99DD77E86F3E11199119D0373E7E8F6A5D
+                  3C09CA3E04D96C1FB4B5456B6E26A320919806618D8AC5D68FA60707EFF099AA
+                  A8FA225F191BB37E6FCFBD012AFF0E40DC6DD23527875D2576B66B2EFED95743
+                  43365756445506EC9E3A7F00947C1F0FBBDD9A0D2705C23933D37FE45B2E87A6
+                  22037A27CEEF144A7E01129EE3AACDC581AB4A38AF5F1B3872836B0213DA80BE
+                  A92F9F55B6F33548AB9DABEA03C79E13967C69BAFFB5EFB9261092DF03D13B31
+                  7254A9DB1375279EC06BA26BA36BE49A40046A017AA0DB913B871F3FC555758E
+                  1AEE9A8F9F0E3240FA1AA0C56FCF5FC0B67290AB1A03072E762DC45EF633C1B7
+                  0BE8FF7CA38927F09ADD56EB8D670BA0FE24047CC2C586442938766DE0F0A75C
+                  5C475903F4684F031EB46DE1AA0625B32CC4D68172B3434903DC795EFD1CE568
+                  6F61534AB63F0CDBE2DE7E2E2C2FC1D4DC5FB82E8A109C2295107B4AC509250D
+                  D87D79E40AF6A148839CBDF775C2873DC1FEE4D1994B30FBEF3C97220283A599
+                  7D879FE752817583A00E6F6B10E125AC381FF9D31AE2B381414D5ADB5DAC3180
+                  A63C8EED9B13D4A63516B1C600BDAADBBC85CD46D0CD1A0B140CA0F5BCBBA46D
+                  7250A3D6CA140CD09B191BB69EDF4CE29DAE5697D52E403B39A650A4551B407B
+                  787A1BCB1450ABD68C6803680333F23DBC7A06B56ACD8836C0DDBD358B15CD92
+                  F6ED314C4AEA5AA37092A45DD24D8BCAF7ED1B19AB45DFB0C1B8FF2DEC08C35C
+                  1B085AD83CBDFD8150E16DCFB61DF0EA434F70C99BCF6FA4E0D7EC2D2EF9B368
+                  E7E1A7857FC0C6B56F281C38257A27473EC0D1EF345705E2858E47E0BD5D7BB9
+                  541FBCFDCB0F70E9E69F5C0A06DA754EEA7B7521F15BD26E06155D136A97B820
+                  3620FA2B036AA769D05C0350BB2CDCA23611D4BEBA163014C9C9096682DAA905
+                  986B006AA769D05C03503B4D83A10DC8E6737C543F54744D948F544928BC454A
+                  D8DFF1286C8D070F859F4CDC0B07EE7F8C4BDE5C48FF06D7EF64B8E4CFED5C0E
+                  BEBB791D961D876B02A243E18991410CED2F7255CDD8DFB113DEDDF50C97BC79
+                  73F60AFC88B17DADC1A5C34149A9686E369669D84BA45DBA7978124D300DA973
+                  107520447978BACE2056346B03280951E7E199026AD59A116D80CEC0A4244453
+                  40AD2B59A7AB6B01618DF251F353A4B56000A59FEA0CCCA6279776B5BA140CD0
+                  B9B72276968BCD0B6A2CCE335EED0208E5DEE25BCA2D352529D658608D013AA5
+                  4C3867B8D87CA0B6BBD3E6D61840E8C46307AE723132B276F0C5CA6288CF0686
+                  52644A2455FF9F24C5EFEB30254D6E5D1758817E41A9B6135C6C584883570679
+                  59030837C35285DA2BA82FD4B0579628E169004159D73880D47CBF207228599A
+                  AEDD075F0368DAA0ACEBC66A096A3848A638112A2BC44D9ECE7C5CBF03636699
+                  FABC5FB32F26745A8CD18FCC107A76C039B516C152C5E887A6C49EB0E289D02D
+                  A09866786C2E740B2886BEB86B3ED603421DDFD8A5343D38A98ED37757239EA8
+                  AA051463ECA3B3A530F2E1E972D4F7E3F300FF0185032DADC88DA06600000000
+                  49454E44AE426082}
+                FileName = 'C:\Users\Marcelo\Downloads\add.png'
+              end>
+            Position.Y = 1067.000000000000000000
+          end
+        end
+      end
+    end
+    inherited TabDetalhe: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited ToolBar2: TToolBar
+        Size.Width = 800.000000000000000000
+        inherited Label2: TLabel
+          Size.Width = 800.000000000000000000
+        end
+      end
+      inherited ListBoxBasico: TListBox
+        Size.Width = 790.000000000000000000
+        Size.Height = 1197.000000000000000000
+        Viewport.Width = 790.000000000000000000
+        Viewport.Height = 1197.000000000000000000
+        inherited ListBoxItem2: TListBoxItem
+          inherited Label8: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem3: TListBoxItem
+          inherited Label7: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem4: TListBoxItem
+          inherited Label9: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem5: TListBoxItem
+          inherited Label10: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+      end
+    end
+    inherited TabCadastro: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited ToolBar3: TToolBar
+        Size.Width = 800.000000000000000000
+        inherited Label3: TLabel
+          Size.Width = 800.000000000000000000
+        end
+        inherited btnSalvar: TButton
+          Position.X = 760.000000000000000000
+        end
+      end
+      inherited ListBox1: TListBox
+        Size.Width = 790.000000000000000000
+        Size.Height = 1197.000000000000000000
+        Viewport.Width = 790.000000000000000000
+        Viewport.Height = 1197.000000000000000000
+        inherited ListBoxItem6: TListBoxItem
+          inherited Label4: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem7: TListBoxItem
+          inherited edtDescricao: TEdit
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label5: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem8: TListBoxItem
+          inherited EdtUnidade: TEdit
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label6: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem9: TListBoxItem
+          inherited edtPrecoCusto: TEdit
+            Size.Height = 50.000000000000000000
+          end
+          inherited Label11: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+          inherited SpeedButton1: TSpeedButton
+            Size.Height = 50.000000000000000000
+          end
+          inherited SpeedButton2: TSpeedButton
+            Size.Height = 50.000000000000000000
+          end
+        end
+        inherited ListBoxItem10: TListBoxItem
+          inherited edtPrecoVenda: TEdit
+            Size.Height = 50.000000000000000000
+          end
+          inherited Label12: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+          inherited SpeedButton3: TSpeedButton
+            Size.Height = 50.000000000000000000
+          end
+          inherited SpeedButton5: TSpeedButton
+            Size.Height = 50.000000000000000000
+          end
+        end
+        inherited ListBoxItem11: TListBoxItem
+          inherited edtQtd: TEdit
+            Size.Height = 50.000000000000000000
+          end
+          inherited Label13: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+          inherited SpeedButton4: TSpeedButton
+            Size.Height = 50.000000000000000000
+          end
+          inherited SpeedButton6: TSpeedButton
+            Size.Height = 50.000000000000000000
+          end
+        end
+      end
+    end
+  end
+end

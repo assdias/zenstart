@@ -1,0 +1,54 @@
+inherited frmSincronizar_Windows: TfrmSincronizar_Windows
+  DesignerMasterStyle = 3
+  inherited ToolBar2: TToolBar
+    inherited Label2: TLabel
+      TextSettings.FontColor = claBlack
+    end
+  end
+  inherited ToolBar5: TToolBar
+    inherited btnSalvar: TButton
+      TextSettings.FontColor = claBlack
+    end
+  end
+  inherited Layout1: TLayout
+    inherited ListBox1: TListBox
+      Viewport.Width = 306.000000000000000000
+      Viewport.Height = 338.000000000000000000
+      inherited ListBoxGroupHeader1: TListBoxGroupHeader
+        Size.Width = 306.000000000000000000
+      end
+      inherited ListBoxItem2: TListBoxItem
+        Size.Width = 306.000000000000000000
+        Size.Height = 45.000000000000000000
+      end
+      inherited ListBoxItem3: TListBoxItem
+        Position.Y = 75.000000000000000000
+        Size.Width = 306.000000000000000000
+        Size.Height = 45.000000000000000000
+      end
+      inherited ListBoxItem6: TListBoxItem
+        Position.Y = 120.000000000000000000
+        Size.Width = 306.000000000000000000
+      end
+      inherited ListBoxGroupHeader2: TListBoxGroupHeader
+        Position.Y = 170.000000000000000000
+        Size.Width = 306.000000000000000000
+      end
+      inherited ListBoxItem4: TListBoxItem
+        Position.Y = 200.000000000000000000
+        Size.Width = 306.000000000000000000
+      end
+      inherited ListBoxItem5: TListBoxItem
+        Position.Y = 245.000000000000000000
+        Size.Width = 306.000000000000000000
+      end
+    end
+  end
+  inherited Rectangle1: TRectangle
+    inherited Layout2: TLayout
+      inherited edtStatus: TLabel
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+    end
+  end
+end

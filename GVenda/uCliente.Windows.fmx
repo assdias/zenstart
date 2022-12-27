@@ -1,0 +1,219 @@
+inherited frmCliente_Windows: TfrmCliente_Windows
+  DesignerMasterStyle = 3
+  inherited TabControlClientes: TTabControl
+    Sizes = (
+      320s
+      483s
+      320s
+      483s
+      320s
+      483s
+      320s
+      483s)
+    inherited TabLista: TTabItem
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar1: TToolBar
+        inherited Label1: TLabel
+          TextSettings.FontColor = claBlack
+        end
+      end
+      inherited Rectangle1: TRectangle
+        inherited Layout3: TLayout
+          inherited edtPesquisar: TEdit
+            inherited btnPesquisa: TSearchEditButton
+              Size.Height = 50.000000000000000000
+            end
+          end
+        end
+      end
+    end
+    inherited TabBasico: TTabItem
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ListBoxBasico: TListBox
+        Viewport.Width = 306.000000000000000000
+        Viewport.Height = 421.000000000000000000
+        inherited ListBoxItem1: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited rdbJuridica: TRadioButton
+            Position.X = 194.000000000000000000
+          end
+        end
+        inherited ListBoxItem2: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited Label8: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+          inherited edtNome: TEdit
+            Size.Width = 296.000000000000000000
+          end
+        end
+        inherited ListBoxItem3: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtApelido: TEdit
+            Size.Width = 296.000000000000000000
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label7: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem4: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtCPF: TEdit
+            Size.Width = 296.000000000000000000
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label9: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem5: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtIE: TEdit
+            Size.Width = 296.000000000000000000
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label10: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem7: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtEmail: TEdit
+            Size.Width = 296.000000000000000000
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label12: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem9: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtCelular: TEdit
+            Size.Width = 296.000000000000000000
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label5: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+      end
+      inherited ToolBar2: TToolBar
+        inherited Label2: TLabel
+          TextSettings.FontColor = claBlack
+        end
+      end
+    end
+    inherited TabEndereco: TTabItem
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar3: TToolBar
+        inherited Label3: TLabel
+          TextSettings.FontColor = claBlack
+        end
+      end
+      inherited ListBoxEndereco: TListBox
+        Viewport.Width = 310.000000000000000000
+        Viewport.Height = 377.000000000000000000
+        inherited ListBoxItem11: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtEndereco: TEdit
+            Size.Width = 296.000000000000000000
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label14: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem12: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtNumero: TEdit
+            Size.Width = 296.000000000000000000
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label15: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem13: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtBairro: TEdit
+            Size.Width = 296.000000000000000000
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label16: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem14: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtCidade: TEdit
+            Size.Width = 207.000000000000000000
+            Size.Height = 33.000000000000000000
+            inherited btnBuscaCidade: TSearchEditButton
+              Size.Height = 50.000000000000000000
+            end
+          end
+          inherited Label17: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+          inherited edtCodCidade: TEdit
+            Size.Height = 33.000000000000000000
+          end
+        end
+        inherited ListBoxItem15: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtUF: TEdit
+            Size.Width = 296.000000000000000000
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label18: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem16: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited edtCEP: TEdit
+            Size.Width = 296.000000000000000000
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label19: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+      end
+    end
+    inherited tabCidade: TTabItem
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar6: TToolBar
+        inherited Label6: TLabel
+          TextSettings.FontColor = claBlack
+        end
+      end
+      inherited Rectangle2: TRectangle
+        inherited Layout1: TLayout
+          inherited edtPesquisarCidade: TEdit
+            inherited btnPesquisarCidade: TSearchEditButton
+              Size.Height = 50.000000000000000000
+            end
+          end
+        end
+      end
+    end
+  end
+end

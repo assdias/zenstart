@@ -1,0 +1,666 @@
+object frmConfig: TfrmConfig
+  Left = 0
+  Top = 0
+  ClientHeight = 483
+  ClientWidth = 320
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnKeyUp = FormKeyUp
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 483.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = None
+    Sizes = (
+      320s
+      483s
+      320s
+      483s
+      320s
+      483s
+      320s
+      483s
+      320s
+      483s)
+    object TABMENU: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TABMENU'
+      ExplicitSize.cx = 80.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout2: TLayout
+        Align = Center
+        Size.Width = 241.000000000000000000
+        Size.Height = 229.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object bntUsuario: TButton
+          Align = Top
+          Margins.Top = 5.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 241.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = 'Usu'#225'rio'
+          OnClick = bntUsuarioClick
+        end
+        object btnBanco: TButton
+          Align = Top
+          Position.Y = 49.000000000000000000
+          Size.Width = 241.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Banco Remoto'
+          OnClick = btnBancoClick
+        end
+        object btnImpressora: TButton
+          Align = Top
+          Position.Y = 93.000000000000000000
+          Size.Width = 241.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Impressora'
+          OnClick = btnImpressoraClick
+        end
+        object btnSair: TButton
+          Align = Top
+          Position.Y = 181.000000000000000000
+          Size.Width = 241.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Sair'
+          OnClick = btnSairClick
+        end
+        object btnEmp: TButton
+          Align = Top
+          Position.Y = 137.000000000000000000
+          Size.Width = 241.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Meus dados'
+          OnClick = btnEmpClick
+        end
+      end
+    end
+    object TABUSUARIO: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TABUSUARIO'
+      ExplicitSize.cx = 80.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout16: TLayout
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 53.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 196.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        object edtUsuarioLocal: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 2
+          Position.X = 5.000000000000000000
+          Position.Y = 10.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'USU'#193'RIO'
+          CharCase = ecUpperCase
+        end
+        object btnSalvarUsuario: TButton
+          Align = Center
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 134.000000000000000000
+          Size.Height = 46.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Salvar'
+          OnClick = btnSalvarUsuarioClick
+        end
+        object edtSenhaLocal: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 1
+          Password = True
+          Position.X = 5.000000000000000000
+          Position.Y = 57.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'SENHA'
+          CharCase = ecUpperCase
+        end
+        object edtVendedor: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 0
+          Position.X = 5.000000000000000000
+          Position.Y = 104.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'VENDEDOR'
+          CharCase = ecUpperCase
+          object SearchEditButton1: TSearchEditButton
+            CanFocus = False
+            Cursor = crArrow
+            Size.Width = 32.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            OnClick = SearchEditButton1Click
+          end
+        end
+      end
+      object ToolBar2: TToolBar
+        Size.Width = 320.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        TintColor = xFFF4841A
+        object Label2: TLabel
+          Align = Contents
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 320.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'USU'#193'RIO'
+          TabOrder = 2
+        end
+        object Button2: TButton
+          Align = Left
+          StyledSettings = [Family, Size, Style]
+          IconTintColor = claWhite
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'backtoolbutton'
+          TabOrder = 0
+          TextSettings.FontColor = claWhite
+          OnClick = Button5Click
+        end
+      end
+    end
+    object TABSERV: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TABSERV'
+      ExplicitSize.cx = 80.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout1: TLayout
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 53.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 284.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        object edtServidor: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 4
+          Position.X = 5.000000000000000000
+          Position.Y = 5.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'SERVIDOR'
+        end
+        object bnSalvarBanco: TButton
+          Align = Center
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 127.000000000000000000
+          Size.Height = 52.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'Salvar'
+          OnClick = bnSalvarBancoClick
+        end
+        object edtBanco: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 0
+          Position.X = 5.000000000000000000
+          Position.Y = 47.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'BANCO'
+        end
+        object edtUsuario: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 3
+          Position.X = 5.000000000000000000
+          Position.Y = 89.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'USU'#193'RIO'
+        end
+        object edtSenha: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 2
+          Position.X = 5.000000000000000000
+          Position.Y = 131.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'SENHA'
+        end
+        object edtTipo: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 1
+          Position.X = 5.000000000000000000
+          Position.Y = 173.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'TIPO (N'#195'O OBRIGATT'#211'RIO)'
+          CharCase = ecUpperCase
+        end
+      end
+      object ToolBar1: TToolBar
+        Size.Width = 320.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        TintColor = xFFF4841A
+        object Label1: TLabel
+          Align = Contents
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 320.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'BANCO DE DADOS'
+          TabOrder = 2
+        end
+        object Button5: TButton
+          Align = Left
+          StyledSettings = [Family, Size, Style]
+          IconTintColor = claWhite
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'backtoolbutton'
+          TabOrder = 0
+          TextSettings.FontColor = claWhite
+          OnClick = Button5Click
+        end
+      end
+    end
+    object TABIMP: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TABIMP'
+      ExplicitSize.cx = 80.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout3: TLayout
+        Align = Bottom
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 409.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 69.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object btnSalvar: TButton
+          Align = Right
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 166.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 134.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Salvar'
+          OnClick = btnSalvarClick
+        end
+        object btnTestar: TButton
+          Align = Left
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 134.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Testar '
+          OnClick = btnTestarClick
+        end
+      end
+      object ToolBar3: TToolBar
+        Size.Width = 320.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        TintColor = xFFF4841A
+        object Label3: TLabel
+          Align = Contents
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 320.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'IMPRESSORA'
+          TabOrder = 3
+        end
+        object Button4: TButton
+          Align = Left
+          StyledSettings = [Family, Size, Style]
+          IconTintColor = claWhite
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'backtoolbutton'
+          TabOrder = 1
+          TextSettings.FontColor = claWhite
+          OnClick = Button4Click
+        end
+        object Button3: TButton
+          Align = Right
+          StyledSettings = [Family, Size, Style]
+          IconTintColor = claWhite
+          Position.X = 272.000000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'refreshtoolbutton'
+          TabOrder = 0
+          TextSettings.FontColor = claWhite
+          OnClick = Button3Click
+        end
+      end
+      object cbImpressora: TComboBox
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 53.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+      end
+    end
+    object TabEmp: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabEmp'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object ToolBar4: TToolBar
+        Size.Width = 320.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        TintColor = xFFF4841A
+        object Label4: TLabel
+          Align = Contents
+          StyledSettings = [Family, Size, Style]
+          Size.Width = 320.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'MEUS DADOS'
+          TabOrder = 2
+        end
+        object Button1: TButton
+          Align = Left
+          StyledSettings = [Family, Size, Style]
+          IconTintColor = claWhite
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'backtoolbutton'
+          TabOrder = 0
+          TextSettings.FontColor = claWhite
+          OnClick = Button4Click
+        end
+      end
+      object Layout4: TLayout
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 53.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 348.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        object edtNome: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 6
+          KeyboardType = Alphabet
+          Position.X = 5.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'NOME '
+          CharCase = ecUpperCase
+        end
+        object Button7: TButton
+          Align = Center
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 127.000000000000000000
+          Size.Height = 52.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'Salvar'
+          OnClick = Button7Click
+        end
+        object edtEndereco: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 0
+          Position.X = 5.000000000000000000
+          Position.Y = 32.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'ENDERECO'
+          CharCase = ecUpperCase
+        end
+        object edtCidade: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 5
+          Position.X = 5.000000000000000000
+          Position.Y = 96.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'CIDADE'
+          CharCase = ecUpperCase
+        end
+        object edtBairro: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 4
+          Position.X = 5.000000000000000000
+          Position.Y = 64.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'BAIRRO'
+          CharCase = ecUpperCase
+        end
+        object edtUF: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 3
+          KeyboardType = Alphabet
+          Position.X = 5.000000000000000000
+          Position.Y = 128.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'UF'
+          CharCase = ecUpperCase
+        end
+        object edtCEP: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 2
+          KeyboardType = NamePhonePad
+          Position.X = 5.000000000000000000
+          Position.Y = 160.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'CEP'
+        end
+        object edtFone: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Top
+          TabOrder = 1
+          KeyboardType = NamePhonePad
+          Position.X = 5.000000000000000000
+          Position.Y = 192.000000000000000000
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'FONE'
+        end
+      end
+    end
+  end
+  object Bluetooth: TBluetooth
+    Enabled = False
+    Left = 140
+    Top = 96
+  end
+end

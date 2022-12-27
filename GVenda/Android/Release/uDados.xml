@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<namespace name="uDados" platform="Android">
+  <class name="TDados">
+    <ancestor name="TDataModule" namespace="System.Classes">
+      <methodref name="ReadHeight" visibility="private">
+      </methodref>
+      <methodref name="ReadHorizontalOffset" visibility="private">
+      </methodref>
+      <methodref name="ReadVerticalOffset" visibility="private">
+      </methodref>
+      <methodref name="ReadWidth" visibility="private">
+      </methodref>
+      <methodref name="WriteWidth" visibility="private">
+      </methodref>
+      <methodref name="WriteHorizontalOffset" visibility="private">
+      </methodref>
+      <methodref name="WriteVerticalOffset" visibility="private">
+      </methodref>
+      <methodref name="WriteHeight" visibility="private">
+      </methodref>
+      <methodref name="DoCreate" visibility="protected" procflags="virtual">
+      </methodref>
+      <methodref name="DoDestroy" visibility="protected" procflags="virtual">
+      </methodref>
+      <methodref name="DefineProperties" visibility="protected" procflags="override">
+      </methodref>
+      <methodref name="GetChildren" visibility="protected" procflags="override">
+      </methodref>
+      <methodref name="HandleCreateException" visibility="protected" procflags="dynamic">
+      </methodref>
+      <methodref name="ReadState" visibility="protected" procflags="override">
+      </methodref>
+      <methodref name="Create" visibility="public" procflags="constructor override">
+      </methodref>
+      <methodref name="CreateNew" visibility="public" procflags="constructor virtual">
+      </methodref>
+      <methodref name="Destroy" visibility="public" procflags="destructor override">
+      </methodref>
+      <methodref name="AfterConstruction" visibility="public" procflags="override">
+      </methodref>
+      <methodref name="BeforeDestruction" visibility="public" procflags="override">
+      </methodref>
+      <propertyref name="DesignOffset" visibility="public">
+      </propertyref>
+      <propertyref name="DesignSize" visibility="public">
+      </propertyref>
+      <propertyref name="OldCreateOrder" visibility="published">
+      </propertyref>
+      <eventref name="OnCreate" visibility="published">
+      </eventref>
+      <eventref name="OnDestroy" visibility="published">
+      </eventref>
+      <ancestor name="TComponent" namespace="System.Classes">
+        <interfaces>
+          <implements name="IInterfaceComponentReference" />
+          <implements name="IInterface" />
+        </interfaces>
+        <methodref name="GetComObject" visibility="private">
+        </methodref>
+        <methodref name="GetComponent" visibility="private">
+        </methodref>
+        <methodref name="GetComponentCount" visibility="private">
+        </methodref>
+        <methodref name="GetComponentIndex" visibility="private">
+        </methodref>
+        <methodref name="Insert" visibility="private">
+        </methodref>
+        <methodref name="ReadLeft" visibility="private">
+        </methodref>
+        <methodref name="ReadTop" visibility="private">
+        </methodref>
+        <methodref name="Remove" visibility="private">
+        </methodref>
+        <methodref name="RemoveNotification" visibility="private">
+        </methodref>
+        <methodref name="SetComponentIndex" visibility="private">
+        </methodref>
+        <methodref name="SetReference" visibility="private">
+        </methodref>
+        <methodref name="WriteLeft" visibility="private">
+        </methodref>
+        <methodref name="WriteTop" visibility="private">
+        </methodref>
+        <methodref name="IntfGetComponent" visibility="private">
+        </methodref>
+        <methodref name="DoGetDeltaStreams" visibility="private">
+        </methodref>
+        <methodref name="ReadDeltaStream" visibility="private">
+        </methodref>
+        <methodref name="ReadDeltaState" visibility="private">
+        </methodref>
+        <methodref name="FindSortedComponent" visibility="private">
+        </methodref>
+        <methodref name="AddSortedComponent" visibility="private">
+        </methodref>
+        <methodref name="RemoveSortedComponent" visibility="private" procflags="inline">
+        </methodref>
+        <methodref name="Create@" visibility="class private" procflags="class constructor noself">
+        </methodref>
+        <methodref name="AsyncSchedule" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="ChangeName" visibility="protected">
+        </methodref>
+        <methodref name="DefineProperties" visibility="protected" procflags="override">
+        </methodref>
+        <methodref name="GetChildren" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="GetChildOwner" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="GetChildParent" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="GetOwner" visibility="protected" procflags="override">
+        </methodref>
+        <methodref name="Loaded" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="Notification" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="GetDeltaStreams" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="PaletteCreated" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="ReadState" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="CanObserve" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="ObserverAdded" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="GetObservers" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="SetAncestor" visibility="protected">
+        </methodref>
+        <methodref name="SetDesigning" visibility="protected">
+        </methodref>
+        <methodref name="SetInline" visibility="protected">
+        </methodref>
+        <methodref name="SetDesignInstance" visibility="protected">
+        </methodref>
+        <methodref name="SetName" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="SetChildOrder" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="SetParentComponent" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="Updating" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="Updated" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="UpdateRegistry" visibility="protected" procflags="class virtual">
+        </methodref>
+        <methodref name="ValidateRename" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="ValidateContainer" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="ValidateInsert" visibility="protected" procflags="dynamic">
+        </methodref>
+        <methodref name="WriteState" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="RemoveFreeNotifications" visibility="protected">
+        </methodref>
+        <methodref name="QueryInterface" visibility="protected" procflags="virtual">
+        </methodref>
+        <methodref name="_AddRef" visibility="protected">
+        </methodref>
+        <methodref name="_Release" visibility="protected">
+        </methodref>
+        <methodref name="GetTypeInfoCount" visibility="protected">
+        </methodref>
+        <methodref name="GetTypeInfo" visibility="protected">
+        </methodref>
+        <methodref name="GetIDsOfNames" visibility="protected">
+        </methodref>
+        <methodref name="Invoke" visibility="protected">
+        </methodref>
+        <eventref name="OnGetDeltaStreams" visibility="protected">
+        </eventref>
+        <methodref name="Create" visibility="public" procflags="constructor virtual">
+        </methodref>
+        <methodref name="Destroy" visibility="public" procflags="destructor override">
+        </methodref>
+        <methodref name="BeforeDestruction" visibility="public" procflags="override">
+        </methodref>
+        <methodref name="BeginInvoke" visibility="public" procflags="overload">
+        </methodref>
+        <methodref name="BeginInvoke" visibility="public" procflags="overload">
+        </methodref>
+        <methodref name="BeginInvoke" visibility="public" procflags="overload">
+        </methodref>
+        <methodref name="BeginInvoke" visibility="public" procflags="overload">
+        </methodref>
+        <methodref name="BeginInvoke" visibility="public" procflags="overload">
+        </methodref>
+        <methodref name="BeginInvoke" visibility="public" procflags="overload">
+        </methodref>
+        <methodref name="BeginInvoke" visibility="public" procflags="overload">
+        </methodref>
+        <methodref name="BeginInvoke" visibility="public" procflags="overload">
+        </methodref>
+        <methodref name="EndInvoke" visibility="public" procflags="overload">
+        </methodref>
+        <methodref name="EndInvoke" visibility="public" procflags="overload">
+        </methodref>
+        <methodref name="EndFunctionInvoke" visibility="public">
+        </methodref>
+        <methodref name="DestroyComponents" visibility="public">
+        </methodref>
+        <methodref name="Destroying" visibility="public">
+        </methodref>
+        <methodref name="ExecuteAction" visibility="public" procflags="dynamic">
+        </methodref>
+        <methodref name="FindComponent" visibility="public">
+        </methodref>
+        <methodref name="FreeNotification" visibility="public">
+        </methodref>
+        <methodref name="RemoveFreeNotification" visibility="public">
+        </methodref>
+        <methodref name="FreeOnRelease" visibility="public">
+        </methodref>
+        <methodref name="GetEnumerator" visibility="public" procflags="inline">
+        </methodref>
+        <methodref name="GetParentComponent" visibility="public" procflags="dynamic">
+        </methodref>
+        <methodref name="GetNamePath" visibility="public" procflags="override">
+        </methodref>
+        <methodref name="HasParent" visibility="public" procflags="dynamic">
+        </methodref>
+        <methodref name="InsertComponent" visibility="public">
+        </methodref>
+        <methodref name="RemoveComponent" visibility="public">
+        </methodref>
+        <methodref name="SetSubComponent" visibility="public">
+        </methodref>
+        <methodref name="SafeCallException" visibility="public" procflags="override">
+        </methodref>
+        <methodref name="UpdateAction" visibility="public" procflags="virtual">
+        </methodref>
+        <methodref name="IsImplementorOf" visibility="public">
+        </methodref>
+        <methodref name="ReferenceInterface" visibility="public">
+        </methodref>
+        <propertyref name="ComObject" visibility="public">
+        </propertyref>
+        <propertyref name="Components" visibility="public">
+        </propertyref>
+        <propertyref name="ComponentCount" visibility="public">
+        </propertyref>
+        <propertyref name="ComponentIndex" visibility="public">
+        </propertyref>
+        <propertyref name="ComponentState" visibility="public">
+        </propertyref>
+        <propertyref name="ComponentStyle" visibility="public">
+        </propertyref>
+        <propertyref name="DesignInfo" visibility="public">
+        </propertyref>
+        <propertyref name="Owner" visibility="public">
+        </propertyref>
+        <propertyref name="VCLComObject" visibility="public">
+        </propertyref>
+        <propertyref name="Observers" visibility="public">
+        </propertyref>
+        <propertyref name="Name" visibility="published">
+        </propertyref>
+        <propertyref name="Tag" visibility="published">
+        </propertyref>
+        <ancestor name="TPersistent" namespace="System.Classes">
+          <methodref name="AssignError" visibility="private">
+          </methodref>
+          <methodref name="AssignTo" visibility="protected" procflags="virtual">
+          </methodref>
+          <methodref name="DefineProperties" visibility="protected" procflags="virtual">
+          </methodref>
+          <methodref name="GetOwner" visibility="protected" procflags="dynamic">
+          </methodref>
+          <methodref name="Destroy" visibility="public" procflags="destructor override">
+          </methodref>
+          <methodref name="Assign" visibility="public" procflags="virtual">
+          </methodref>
+          <methodref name="GetNamePath" visibility="public" procflags="dynamic">
+          </methodref>
+          <ancestor name="TObject" namespace="System">
+            <methodref name="Create" visibility="public" procflags="constructor">
+            </methodref>
+            <methodref name="Free" visibility="public">
+            </methodref>
+            <methodref name="DisposeOf" visibility="public" procflags="inline">
+            </methodref>
+            <methodref name="InitInstance" visibility="public" procflags="class">
+            </methodref>
+            <methodref name="CleanupInstance" visibility="public">
+            </methodref>
+            <methodref name="ClassType" visibility="public" procflags="inline">
+            </methodref>
+            <methodref name="ClassName" visibility="public" procflags="class">
+            </methodref>
+            <methodref name="ClassNameIs" visibility="public" procflags="class">
+            </methodref>
+            <methodref name="ClassParent" visibility="public" procflags="class">
+            </methodref>
+            <methodref name="ClassInfo" visibility="public" procflags="class inline">
+            </methodref>
+            <methodref name="InstanceSize" visibility="public" procflags="class inline">
+            </methodref>
+            <methodref name="InheritsFrom" visibility="public" procflags="class">
+            </methodref>
+            <methodref name="MethodAddress" visibility="public" procflags="class overload">
+            </methodref>
+            <methodref name="MethodAddress" visibility="public" procflags="class overload">
+            </methodref>
+            <methodref name="MethodName" visibility="public" procflags="class">
+            </methodref>
+            <methodref name="QualifiedClassName" visibility="public" procflags="class">
+            </methodref>
+            <methodref name="FieldAddress" visibility="public" procflags="overload">
+            </methodref>
+            <methodref name="FieldAddress" visibility="public" procflags="overload">
+            </methodref>
+            <methodref name="GetInterface" visibility="public">
+            </methodref>
+            <methodref name="GetInterfaceEntry" visibility="public" procflags="class">
+            </methodref>
+            <methodref name="GetInterfaceTable" visibility="public" procflags="class inline">
+            </methodref>
+            <methodref name="UnitName" visibility="public" procflags="class">
+            </methodref>
+            <methodref name="UnitScope" visibility="public" procflags="class">
+            </methodref>
+            <methodref name="Equals" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="GetHashCode" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="ToString" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="SafeCallException" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="AfterConstruction" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="BeforeDestruction" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="Dispatch" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="DefaultHandler" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="NewInstance" visibility="public" procflags="class virtual">
+            </methodref>
+            <methodref name="FreeInstance" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="Destroy" visibility="public" procflags="destructor virtual">
+            </methodref>
+            <methodref name="CPP_ABI_1" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="CPP_ABI_2" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="CPP_ABI_3" visibility="public" procflags="virtual">
+            </methodref>
+            <methodref name="GetDisposed" visibility="protected" procflags="inline">
+            </methodref>
+            <methodref name="CheckDisposed" visibility="protected" procflags="inline">
+            </methodref>
+            <propertyref name="Disposed" visibility="protected">
+            </propertyref>
+          </ancestor>
+        </ancestor>
+      </ancestor>
+    </ancestor>
+    <members>
+      <field name="conexao" type="TFDConnection" visibility="published" size="4" offset="100" />
+      <field name="Transacao" type="TFDTransaction" visibility="published" size="4" offset="104" />
+      <field name="FDQLite" type="TFDPhysSQLiteDriverLink" visibility="published" size="4" offset="108" />
+      <field name="WaitCursor" type="TFDGUIxWaitCursor" visibility="published" size="4" offset="112" />
+      <field name="qryPessoa" type="TFDQuery" visibility="published" size="4" offset="116" />
+      <field name="qryPessoaempresa" type="TSmallintField" visibility="published" size="4" offset="120" />
+      <field name="qryPessoacodigo" type="TIntegerField" visibility="published" size="4" offset="124" />
+      <field name="qryPessoatipo" type="TStringField" visibility="published" size="4" offset="128" />
+      <field name="qryPessoacnpj" type="TStringField" visibility="published" size="4" offset="132" />
+      <field name="qryPessoaie" type="TStringField" visibility="published" size="4" offset="136" />
+      <field name="qryPessoafantasia" type="TStringField" visibility="published" size="4" offset="140" />
+      <field name="qryPessoarazao" type="TStringField" visibility="published" size="4" offset="144" />
+      <field name="qryPessoaendereco" type="TStringField" visibility="published" size="4" offset="148" />
+      <field name="qryPessoanumero" type="TStringField" visibility="published" size="4" offset="152" />
+      <field name="qryPessoacomplemento" type="TStringField" visibility="published" size="4" offset="156" />
+      <field name="qryPessoacodmun" type="TIntegerField" visibility="published" size="4" offset="160" />
+      <field name="qryPessoamunicipio" type="TStringField" visibility="published" size="4" offset="164" />
+      <field name="qryPessoabairro" type="TStringField" visibility="published" size="4" offset="168" />
+      <field name="qryPessoauf" type="TStringField" visibility="published" size="4" offset="172" />
+      <field name="qryPessoacep" type="TStringField" visibility="published" size="4" offset="176" />
+      <field name="qryPessoafone1" type="TStringField" visibility="published" size="4" offset="180" />
+      <field name="qryPessoafone2" type="TStringField" visibility="published" size="4" offset="184" />
+      <field name="qryPessoacelular1" type="TStringField" visibility="published" size="4" offset="188" />
+      <field name="qryPessoacelular2" type="TStringField" visibility="published" size="4" offset="192" />
+      <field name="qryPessoaemail1" type="TStringField" visibility="published" size="4" offset="196" />
+      <field name="qryPessoaemail2" type="TStringField" visibility="published" size="4" offset="200" />
+      <field name="qryPessoasexo" type="TStringField" visibility="published" size="4" offset="204" />
+      <field name="qryPessoadt_nasc" type="TDateField" visibility="published" size="4" offset="208" />
+      <field name="qryPessoaecivil" type="TStringField" visibility="published" size="4" offset="212" />
+      <field name="qryPessoalimite" type="TBCDField" visibility="published" size="4" offset="216" />
+      <field name="qryPessoadia_pgto" type="TSmallintField" visibility="published" size="4" offset="220" />
+      <field name="qryPessoanum_usu" type="TSmallintField" visibility="published" size="4" offset="224" />
+      <field name="qryPessoafatura" type="TStringField" visibility="published" size="4" offset="228" />
+      <field name="qryPessoacheque" type="TStringField" visibility="published" size="4" offset="232" />
+      <field name="qryPessoaccf" type="TStringField" visibility="published" size="4" offset="236" />
+      <field name="qryPessoaspc" type="TStringField" visibility="published" size="4" offset="240" />
+      <field name="qryPessoaisento" type="TStringField" visibility="published" size="4" offset="244" />
+      <field name="qryPessoaforn" type="TStringField" visibility="published" size="4" offset="248" />
+      <field name="qryPessoafun" type="TStringField" visibility="published" size="4" offset="252" />
+      <field name="qryPessoacli" type="TStringField" visibility="published" size="4" offset="256" />
+      <field name="qryPessoafab" type="TStringField" visibility="published" size="4" offset="260" />
+      <field name="qryPessoatran" type="TStringField" visibility="published" size="4" offset="264" />
+      <field name="qryPessoaadm" type="TStringField" visibility="published" size="4" offset="268" />
+      <field name="qryPessoaativo" type="TStringField" visibility="published" size="4" offset="272" />
+      <field name="qryPessoadt_admissao" type="TDateField" visibility="published" size="4" offset="276" />
+      <field name="qryPessoadt_demissao" type="TDateField" visibility="published" size="4" offset="280" />
+      <field name="qryPessoasalario" type="TBCDField" visibility="published" size="4" offset="284" />
+      <field name="qryPessoapai" type="TStringField" visibility="published" size="4" offset="288" />
+      <field name="qryPessoamae" type="TStringField" visibility="published" size="4" offset="292" />
+      <field name="qryProduto" type="TFDQuery" visibility="published" size="4" offset="296" />
+      <field name="qryOrcamento" type="TFDQuery" visibility="published" size="4" offset="300" />
+      <field name="qryItem" type="TFDQuery" visibility="published" size="4" offset="304" />
+      <field name="qryItemcodigo" type="TIntegerField" visibility="published" size="4" offset="308" />
+      <field name="qryItemfk_orcamento" type="TIntegerField" visibility="published" size="4" offset="312" />
+      <field name="qryItemfk_produto" type="TIntegerField" visibility="published" size="4" offset="316" />
+      <field name="qryItemqtd" type="TBCDField" visibility="published" size="4" offset="320" />
+      <field name="qryItempreco" type="TBCDField" visibility="published" size="4" offset="324" />
+      <field name="qryItemtotal" type="TBCDField" visibility="published" size="4" offset="328" />
+      <field name="qryItemitem" type="TSmallintField" visibility="published" size="4" offset="332" />
+      <field name="qryItemdescricao" type="TStringField" visibility="published" size="4" offset="336" />
+      <field name="qryOrcamentocodigo" type="TIntegerField" visibility="published" size="4" offset="340" />
+      <field name="qryOrcamentodata" type="TDateField" visibility="published" size="4" offset="344" />
+      <field name="qryOrcamentofkvendedor" type="TIntegerField" visibility="published" size="4" offset="348" />
+      <field name="qryOrcamentofk_cliente" type="TIntegerField" visibility="published" size="4" offset="352" />
+      <field name="qryOrcamentocliente" type="TStringField" visibility="published" size="4" offset="356" />
+      <field name="qryOrcamentotelefone" type="TStringField" visibility="published" size="4" offset="360" />
+      <field name="qryOrcamentocelular" type="TStringField" visibility="published" size="4" offset="364" />
+      <field name="qryOrcamentoendereco" type="TStringField" visibility="published" size="4" offset="368" />
+      <field name="qryOrcamentonumero" type="TStringField" visibility="published" size="4" offset="372" />
+      <field name="qryOrcamentobairro" type="TStringField" visibility="published" size="4" offset="376" />
+      <field name="qryOrcamentocidade" type="TStringField" visibility="published" size="4" offset="380" />
+      <field name="qryOrcamentouf" type="TStringField" visibility="published" size="4" offset="384" />
+      <field name="qryOrcamentocnpj" type="TStringField" visibility="published" size="4" offset="388" />
+      <field name="qryOrcamentoforma_pagamento" type="TStringField" visibility="published" size="4" offset="392" />
+      <field name="qryOrcamentovalidade" type="TSmallintField" visibility="published" size="4" offset="396" />
+      <field name="qryOrcamentosituacao" type="TStringField" visibility="published" size="4" offset="400" />
+      <field name="qryOrcamentototal" type="TBCDField" visibility="published" size="4" offset="404" />
+      <field name="qryOrcamentocep" type="TStringField" visibility="published" size="4" offset="408" />
+      <field name="qryOrcamentofkempresa" type="TIntegerField" visibility="published" size="4" offset="412" />
+      <field name="qryOrcamentosubtotal" type="TBCDField" visibility="published" size="4" offset="416" />
+      <field name="qryOrcamentopercentual" type="TBCDField" visibility="published" size="4" offset="420" />
+      <field name="qryOrcamentodesconto" type="TBCDField" visibility="published" size="4" offset="424" />
+      <field name="qryCidade" type="TFDQuery" visibility="published" size="4" offset="428" />
+      <field name="qryCidadecodigo" type="TIntegerField" visibility="published" size="4" offset="432" />
+      <field name="qryCidadedescricao" type="TStringField" visibility="published" size="4" offset="436" />
+      <field name="qryCidadecoduf" type="TIntegerField" visibility="published" size="4" offset="440" />
+      <field name="qryCidadeuf" type="TStringField" visibility="published" size="4" offset="444" />
+      <field name="qryExecute" type="TFDQuery" visibility="published" size="4" offset="448" />
+      <field name="qryPessoanovo" type="TStringField" visibility="published" size="4" offset="452" />
+      <field name="qryProdutocodigo" type="TIntegerField" visibility="published" size="4" offset="456" />
+      <field name="qryProdutotipo" type="TStringField" visibility="published" size="4" offset="460" />
+      <field name="qryProdutocodbarra" type="TStringField" visibility="published" size="4" offset="464" />
+      <field name="qryProdutoreferencia" type="TStringField" visibility="published" size="4" offset="468" />
+      <field name="qryProdutounidade" type="TStringField" visibility="published" size="4" offset="472" />
+      <field name="qryProdutopr_custo" type="TBCDField" visibility="published" size="4" offset="476" />
+      <field name="qryProdutopr_venda" type="TBCDField" visibility="published" size="4" offset="480" />
+      <field name="qryProdutoqtd_atual" type="TFMTBCDField" visibility="published" size="4" offset="484" />
+      <field name="qryProdutodescricao" type="TStringField" visibility="published" size="4" offset="488" />
+      <field name="dsOrcamento" type="TDataSource" visibility="published" size="4" offset="492" />
+      <field name="qryItemvirtual_qtd" type="TStringField" visibility="published" size="4" offset="496" />
+      <field name="qryItemvirtual_total" type="TStringField" visibility="published" size="4" offset="500" />
+      <field name="qryItemvirtual_preco" type="TStringField" visibility="published" size="4" offset="504" />
+      <field name="qryItemttotal" type="TAggregateField" visibility="published" size="4" offset="508" />
+      <field name="qryOrcamentovirtual_numero" type="TStringField" visibility="published" size="4" offset="512" />
+      <field name="qryOrcamentovirtual_data" type="TStringField" visibility="published" size="4" offset="516" />
+      <field name="qryOrcamentovirtual_total" type="TStringField" visibility="published" size="4" offset="520" />
+      <field name="cdsProdutos" type="TUniQuery" visibility="published" size="4" offset="524" />
+      <field name="cdsPessoas" type="TUniQuery" visibility="published" size="4" offset="528" />
+      <field name="cdsOrcamento" type="TUniQuery" visibility="published" size="4" offset="532" />
+      <field name="cdsItens" type="TUniQuery" visibility="published" size="4" offset="536" />
+      <field name="cdsCidade" type="TUniQuery" visibility="published" size="4" offset="540" />
+      <field name="MySQLUniProvider" type="TMySQLUniProvider" visibility="published" size="4" offset="544" />
+      <field name="UniConexao" type="TUniConnection" visibility="published" size="4" offset="548" />
+      <field name="cdsProdutoscodigo" type="TIntegerField" visibility="published" size="4" offset="552" />
+      <field name="cdsProdutosdescricao" type="TStringField" visibility="published" size="4" offset="556" />
+      <field name="cdsProdutostipo" type="TStringField" visibility="published" size="4" offset="560" />
+      <field name="cdsProdutoscodbarra" type="TStringField" visibility="published" size="4" offset="564" />
+      <field name="cdsProdutosreferencia" type="TStringField" visibility="published" size="4" offset="568" />
+      <field name="cdsProdutosunidade" type="TStringField" visibility="published" size="4" offset="572" />
+      <field name="cdsProdutospr_custo" type="TFloatField" visibility="published" size="4" offset="576" />
+      <field name="cdsProdutospr_venda" type="TFloatField" visibility="published" size="4" offset="580" />
+      <field name="cdsProdutosqtd_atual" type="TFloatField" visibility="published" size="4" offset="584" />
+      <field name="cdsPessoastipo" type="TStringField" visibility="published" size="4" offset="588" />
+      <field name="cdsPessoascnpj" type="TStringField" visibility="published" size="4" offset="592" />
+      <field name="cdsPessoasie" type="TStringField" visibility="published" size="4" offset="596" />
+      <field name="cdsPessoasfantasia" type="TStringField" visibility="published" size="4" offset="600" />
+      <field name="cdsPessoasrazao" type="TStringField" visibility="published" size="4" offset="604" />
+      <field name="cdsPessoasendereco" type="TStringField" visibility="published" size="4" offset="608" />
+      <field name="cdsPessoasnumero" type="TStringField" visibility="published" size="4" offset="612" />
+      <field name="cdsPessoascomplemento" type="TStringField" visibility="published" size="4" offset="616" />
+      <field name="cdsPessoascodmun" type="TIntegerField" visibility="published" size="4" offset="620" />
+      <field name="cdsPessoasmunicipio" type="TStringField" visibility="published" size="4" offset="624" />
+      <field name="cdsPessoasbairro" type="TStringField" visibility="published" size="4" offset="628" />
+      <field name="cdsPessoasuf" type="TStringField" visibility="published" size="4" offset="632" />
+      <field name="cdsPessoascep" type="TStringField" visibility="published" size="4" offset="636" />
+      <field name="cdsPessoascelular1" type="TStringField" visibility="published" size="4" offset="640" />
+      <field name="cdsPessoascelular2" type="TStringField" visibility="published" size="4" offset="644" />
+      <field name="cdsPessoasisento" type="TStringField" visibility="published" size="4" offset="648" />
+      <field name="cdsCidadecodigo" type="TIntegerField" visibility="published" size="4" offset="652" />
+      <field name="cdsCidadedescricao" type="TStringField" visibility="published" size="4" offset="656" />
+      <field name="cdsCidadecoduf" type="TIntegerField" visibility="published" size="4" offset="660" />
+      <field name="cdsCidadeuf" type="TStringField" visibility="published" size="4" offset="664" />
+      <field name="qryNumerador" type="TFDQuery" visibility="published" size="4" offset="668" />
+      <field name="cdsPessoascodigo" type="TIntegerField" visibility="published" size="4" offset="672" />
+      <field name="cdsOrcamentocodigo" type="TIntegerField" visibility="published" size="4" offset="676" />
+      <field name="cdsOrcamentodata" type="TDateField" visibility="published" size="4" offset="680" />
+      <field name="cdsOrcamentofk_cliente" type="TIntegerField" visibility="published" size="4" offset="684" />
+      <field name="cdsOrcamentoforma_pagamento" type="TStringField" visibility="published" size="4" offset="688" />
+      <field name="cdsOrcamentovalidade" type="TSmallintField" visibility="published" size="4" offset="692" />
+      <field name="cdsOrcamentosituacao" type="TStringField" visibility="published" size="4" offset="696" />
+      <field name="cdsOrcamentototal" type="TFloatField" visibility="published" size="4" offset="700" />
+      <field name="cdsOrcamentosubtotal" type="TFloatField" visibility="published" size="4" offset="704" />
+      <field name="cdsOrcamentopercentual" type="TFloatField" visibility="published" size="4" offset="708" />
+      <field name="cdsOrcamentodesconto" type="TFloatField" visibility="published" size="4" offset="712" />
+      <field name="cdsItenscodigo" type="TIntegerField" visibility="published" size="4" offset="716" />
+      <field name="cdsItensfk_orcamento" type="TIntegerField" visibility="published" size="4" offset="720" />
+      <field name="cdsItensfk_produto" type="TIntegerField" visibility="published" size="4" offset="724" />
+      <field name="cdsItensqtd" type="TFloatField" visibility="published" size="4" offset="728" />
+      <field name="cdsItenspreco" type="TFloatField" visibility="published" size="4" offset="732" />
+      <field name="cdsItenstotal" type="TFloatField" visibility="published" size="4" offset="736" />
+      <field name="cdsItensdescricao" type="TStringField" visibility="published" size="4" offset="740" />
+      <field name="cdsNumerador" type="TUniQuery" visibility="published" size="4" offset="744" />
+      <field name="cdsNumeradorcodigo" type="TIntegerField" visibility="published" size="4" offset="748" />
+      <field name="cdsVendedor" type="TUniQuery" visibility="published" size="4" offset="752" />
+      <field name="cdsVendedorcodigo" type="TIntegerField" visibility="published" size="4" offset="756" />
+      <field name="cdsVendedornome" type="TStringField" visibility="published" size="4" offset="760" />
+      <field name="qryVendedor" type="TFDQuery" visibility="published" size="4" offset="764" />
+      <field name="qryVendedorcodigo" type="TIntegerField" visibility="published" size="4" offset="768" />
+      <field name="qryVendedornome" type="TStringField" visibility="published" size="4" offset="772" />
+      <field name="qryConfigura" type="TFDQuery" visibility="published" size="4" offset="776" />
+      <field name="cdsOrcamentofk_vendedor" type="TIntegerField" visibility="published" size="4" offset="780" />
+      <field name="qryOrcamentovirtual_vendedor" type="TStringField" visibility="published" size="4" offset="784" />
+      <field name="qryUsuarios" type="TFDQuery" visibility="published" size="4" offset="788" />
+      <field name="qryUsuarioscodigo" type="TFDAutoIncField" visibility="published" size="4" offset="792" />
+      <field name="qryUsuariosusuario" type="TStringField" visibility="published" size="4" offset="796" />
+      <field name="qryUsuariossenha" type="TStringField" visibility="published" size="4" offset="800" />
+      <field name="qryUsuariosfk_vendedor" type="TIntegerField" visibility="published" size="4" offset="804" />
+      <field name="qryUsuariosvendedor" type="TStringField" visibility="published" size="4" offset="808" />
+      <field name="qryConfiguracodigo" type="TFDAutoIncField" visibility="published" size="4" offset="812" />
+      <field name="qryConfiguraimpressora" type="TStringField" visibility="published" size="4" offset="816" />
+      <field name="qryConfiguraservidor" type="TStringField" visibility="published" size="4" offset="820" />
+      <field name="qryConfigurabanco" type="TStringField" visibility="published" size="4" offset="824" />
+      <field name="qryConfigurausuario" type="TStringField" visibility="published" size="4" offset="828" />
+      <field name="qryConfigurasenha" type="TStringField" visibility="published" size="4" offset="832" />
+      <field name="qryConfiguraempresa" type="TStringField" visibility="published" size="4" offset="836" />
+      <field name="qryConfiguraendereco" type="TStringField" visibility="published" size="4" offset="840" />
+      <field name="qryConfiguracidade" type="TStringField" visibility="published" size="4" offset="844" />
+      <field name="qryConfigurabairro" type="TStringField" visibility="published" size="4" offset="848" />
+      <field name="qryConfiguracep" type="TStringField" visibility="published" size="4" offset="852" />
+      <field name="qryConfiguratelefone" type="TStringField" visibility="published" size="4" offset="856" />
+      <field name="qryConfiguratipo" type="TStringField" visibility="published" size="4" offset="860" />
+      <field name="qryConfigurauf" type="TStringField" visibility="published" size="4" offset="864" />
+      <field name="qryOrcamentoTTOTAL" type="TAggregateField" visibility="published" size="4" offset="868" />
+      <procedure name="DataModuleCreate" visibility="published">
+        <parameters>
+          <parameter name="Sender" type="TObject" />
+        </parameters>
+      </procedure>
+      <procedure name="qryPessoaAfterPost" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryOrcamentoAfterPost" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryItemAfterPost" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryConfigAfterPost" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryProdutoAfterPost" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryCidadeAfterPost" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryItemCalcFields" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryOrcamentoBeforePost" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryItemBeforeInsert" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryOrcamentoCalcFields" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryOrcamentoBeforeDelete" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="qryConfiguraAfterPost" visibility="published">
+        <parameters>
+          <parameter name="DataSet" type="TDataSet" />
+        </parameters>
+      </procedure>
+      <procedure name="Padrao" visibility="private">
+      </procedure>
+      <field name="sTela" type="string" visibility="public" size="4" offset="872" />
+      <function name="Numerador" visibility="public">
+        <parameters>
+          <parameter name="Tabela" type="string" />
+          <parameter name="Campo" type="string" />
+          <parameter name="filtra" type="string" />
+          <parameter name="where" type="string" />
+          <parameter name="valor" type="string" />
+          <retval type="Integer" />
+        </parameters>
+      </function>
+    </members>
+  </class>
+  <variable name="Dados" type="TDados" />
+</namespace>

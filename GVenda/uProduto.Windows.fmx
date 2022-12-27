@@ -1,0 +1,84 @@
+inherited frmProduto_Windows: TfrmProduto_Windows
+  DesignerMasterStyle = 3
+  inherited TabControlClientes: TTabControl
+    Sizes = (
+      320s
+      483s
+      320s
+      483s)
+    inherited TabLista: TTabItem
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar1: TToolBar
+        inherited Label1: TLabel
+          TextSettings.FontColor = claBlack
+        end
+      end
+      inherited Rectangle1: TRectangle
+        inherited Layout3: TLayout
+          inherited edtPesquisar: TEdit
+            inherited btnPesquisa: TSearchEditButton
+              Size.Height = 28.000000000000000000
+            end
+          end
+        end
+      end
+      inherited ListView1: TListView
+        ItemAppearanceObjects.ItemObjects.Detail.Font.StyleExt = {00060000000000000004000000}
+      end
+    end
+    inherited TabDetalhe: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited ToolBar2: TToolBar
+        inherited Label2: TLabel
+          TextSettings.FontColor = claBlack
+        end
+      end
+      inherited ListBoxBasico: TListBox
+        Viewport.Width = 310.000000000000000000
+        Viewport.Height = 425.000000000000000000
+        inherited ListBoxItem2: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited Label8: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+          inherited lblDescricao: TLabel
+            Size.Width = 296.000000000000000000
+          end
+        end
+        inherited ListBoxItem3: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited Label7: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+          inherited lblPrecoCompra: TLabel
+            Size.Width = 296.000000000000000000
+          end
+        end
+        inherited ListBoxItem4: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited Label9: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+          inherited lblPrecoVenda: TLabel
+            Size.Width = 296.000000000000000000
+          end
+        end
+        inherited ListBoxItem5: TListBoxItem
+          Size.Width = 306.000000000000000000
+          inherited Label10: TLabel
+            Size.Width = 301.000000000000000000
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+          inherited lblQuantidade: TLabel
+            Size.Width = 296.000000000000000000
+          end
+        end
+      end
+    end
+  end
+end

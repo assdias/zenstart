@@ -1,0 +1,49 @@
+inherited frmSincronizar_LgXhdpiPh: TfrmSincronizar_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited ToolBar2: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited Label2: TLabel
+      Size.Width = 450.000000000000000000
+    end
+  end
+  inherited ToolBar5: TToolBar
+    Position.Y = 647.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited btnSalvar: TButton
+      Size.Width = 440.000000000000000000
+    end
+  end
+  inherited Layout1: TLayout
+    Size.Width = 450.000000000000000000
+    Size.Height = 599.000000000000000000
+    inherited ListBox1: TListBox
+      Size.Width = 440.000000000000000000
+      Size.Height = 589.000000000000000000
+      Viewport.Width = 440.000000000000000000
+      Viewport.Height = 589.000000000000000000
+      inherited ListBoxGroupHeader1: TListBoxGroupHeader
+        Size.Width = 440.000000000000000000
+      end
+      inherited ListBoxItem2: TListBoxItem
+        Size.Width = 440.000000000000000000
+      end
+      inherited ListBoxItem3: TListBoxItem
+        Size.Width = 440.000000000000000000
+      end
+      inherited ListBoxItem6: TListBoxItem
+        Size.Width = 440.000000000000000000
+      end
+      inherited ListBoxGroupHeader2: TListBoxGroupHeader
+        Size.Width = 440.000000000000000000
+      end
+      inherited ListBoxItem4: TListBoxItem
+        Size.Width = 440.000000000000000000
+      end
+      inherited ListBoxItem5: TListBoxItem
+        Size.Width = 440.000000000000000000
+      end
+    end
+  end
+end

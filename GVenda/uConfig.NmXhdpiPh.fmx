@@ -1,0 +1,87 @@
+inherited frmConfig_NmXhdpiPh: TfrmConfig_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited TabControl1: TTabControl
+    Size.Width = 400.000000000000000000
+    Size.Height = 615.000000000000000000
+    Sizes = (
+      400s
+      566s
+      400s
+      566s
+      400s
+      566s
+      400s
+      566s)
+    inherited TABMENU: TTabItem
+      Size.Width = 100.000000000000000000
+      ExplicitSize.cx = 200.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+    inherited TABUSUARIO: TTabItem
+      Size.Width = 100.000000000000000000
+      ExplicitSize.cx = 100.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout16: TLayout
+        Size.Width = 390.000000000000000000
+        inherited edtUsuarioLocal: TEdit
+          Size.Width = 380.000000000000000000
+        end
+        inherited edtSenhaLocal: TEdit
+          Size.Width = 380.000000000000000000
+        end
+        inherited edtVendedor: TEdit
+          Size.Width = 380.000000000000000000
+        end
+      end
+    end
+    inherited TABSERV: TTabItem
+      Size.Width = 100.000000000000000000
+      ExplicitSize.cx = 68.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout1: TLayout
+        Size.Width = 390.000000000000000000
+        inherited edtServidor: TEdit
+          Size.Width = 380.000000000000000000
+        end
+        inherited edtBanco: TEdit
+          Size.Width = 380.000000000000000000
+        end
+        inherited edtUsuario: TEdit
+          Size.Width = 380.000000000000000000
+        end
+        inherited edtSenha: TEdit
+          Size.Width = 380.000000000000000000
+        end
+      end
+    end
+    inherited TABIMP: TTabItem
+      Size.Width = 100.000000000000000000
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout3: TLayout
+        Size.Width = 390.000000000000000000
+        inherited btnSalvar: TButton
+          Position.X = 246.000000000000000000
+        end
+        inherited btnTestar: TButton
+          OnClick = nil
+        end
+      end
+      inherited Layout4: TLayout
+        Size.Width = 400.000000000000000000
+      end
+      inherited ListBox1: TListBox
+        Size.Width = 390.000000000000000000
+        Size.Height = 385.000000000000000000
+        Viewport.Width = 390.000000000000000000
+        Viewport.Height = 385.000000000000000000
+      end
+      inherited EdtImp: TEdit
+        Position.Y = 450.000000000000000000
+        Size.Width = 390.000000000000000000
+      end
+    end
+  end
+end

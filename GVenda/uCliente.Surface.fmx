@@ -1,0 +1,225 @@
+inherited frmCliente_Surface: TfrmCliente_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 3
+  inherited TabControlClientes: TTabControl
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1920.000000000000000000
+    Sizes = (
+      1080s
+      1871s
+      1080s
+      1871s
+      1080s
+      1871s
+      1080s
+      1871s
+      1080s
+      1871s)
+    inherited TabLista: TTabItem
+      Size.Width = 50.000000000000000000
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar1: TToolBar
+        Size.Width = 1080.000000000000000000
+        inherited Label1: TLabel
+          Size.Width = 1080.000000000000000000
+        end
+      end
+      inherited ToolBar5: TToolBar
+        Position.Y = 1823.000000000000000000
+        Size.Width = 1080.000000000000000000
+      end
+      inherited lstCliente: TListView
+        Size.Width = 1070.000000000000000000
+        Size.Height = 1710.000000000000000000
+      end
+      inherited Rectangle1: TRectangle
+        Size.Width = 1070.000000000000000000
+        inherited Layout3: TLayout
+          Size.Width = 1070.000000000000000000
+          inherited edtPesquisar: TEdit
+            Size.Width = 1060.000000000000000000
+          end
+        end
+      end
+    end
+    inherited TabBasico: TTabItem
+      Size.Width = 61.000000000000000000
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ListBoxBasico: TListBox
+        Size.Width = 1070.000000000000000000
+        Size.Height = 1813.000000000000000000
+        Viewport.Width = 310.000000000000000000
+        Viewport.Height = 376.000000000000000000
+        inherited ListBoxItem2: TListBoxItem
+          inherited Label8: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem3: TListBoxItem
+          inherited Label7: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem4: TListBoxItem
+          inherited Label9: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem5: TListBoxItem
+          inherited Label10: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem6: TListBoxItem
+          inherited Label11: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem7: TListBoxItem
+          inherited Label12: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+      end
+      inherited ToolBar2: TToolBar
+        Size.Width = 1080.000000000000000000
+        inherited Label2: TLabel
+          Size.Width = 1080.000000000000000000
+        end
+        inherited btnAvancarPrincipais: TButton
+          Position.X = 1032.000000000000000000
+        end
+      end
+    end
+    inherited TabEndereco: TTabItem
+      Size.Width = 80.000000000000000000
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar3: TToolBar
+        Size.Width = 1080.000000000000000000
+        inherited Label3: TLabel
+          Size.Width = 1080.000000000000000000
+        end
+        inherited btnAvancarEndereco: TButton
+          Position.X = 1032.000000000000000000
+        end
+      end
+      inherited ListBoxEndereco: TListBox
+        Size.Width = 1070.000000000000000000
+        Size.Height = 1813.000000000000000000
+        Viewport.Width = 310.000000000000000000
+        Viewport.Height = 376.000000000000000000
+        inherited ListBoxItem11: TListBoxItem
+          inherited edtEndereco: TEdit
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label14: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem12: TListBoxItem
+          inherited Label15: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem13: TListBoxItem
+          inherited Label16: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem14: TListBoxItem
+          inherited Label17: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem15: TListBoxItem
+          inherited Label18: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem16: TListBoxItem
+          inherited Label19: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+      end
+    end
+    inherited tabAdicionais: TTabItem
+      Size.Width = 86.000000000000000000
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar4: TToolBar
+        Size.Width = 1080.000000000000000000
+        inherited Label4: TLabel
+          Size.Width = 1080.000000000000000000
+        end
+      end
+      inherited ListBoxAdicionais: TListBox
+        Size.Width = 1070.000000000000000000
+        Size.Height = 1813.000000000000000000
+        Viewport.Width = 310.000000000000000000
+        Viewport.Height = 376.000000000000000000
+        inherited ListBoxItem10: TListBoxItem
+          inherited edtContato: TEdit
+            Size.Height = 33.000000000000000000
+          end
+          inherited Label20: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem17: TListBoxItem
+          inherited Label21: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem18: TListBoxItem
+          inherited Label22: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem8: TListBoxItem
+          inherited Label13: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem9: TListBoxItem
+          inherited Label5: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+        inherited ListBoxItem20: TListBoxItem
+          inherited Label23: TLabel
+            TextSettings.Font.StyleExt = {00030000000000000004000000}
+          end
+        end
+      end
+    end
+    inherited tabCidade: TTabItem
+      Size.Width = 62.000000000000000000
+      ExplicitSize.cx = 64.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited ToolBar6: TToolBar
+        Size.Width = 1080.000000000000000000
+        inherited Label6: TLabel
+          Size.Width = 1080.000000000000000000
+        end
+      end
+      inherited lstVCidade: TListView
+        Size.Width = 1070.000000000000000000
+        Size.Height = 1758.000000000000000000
+      end
+      inherited Rectangle2: TRectangle
+        Size.Width = 1070.000000000000000000
+        inherited Layout1: TLayout
+          Size.Width = 1070.000000000000000000
+          inherited edtPesquisarCidade: TEdit
+            Size.Width = 1060.000000000000000000
+          end
+        end
+      end
+    end
+  end
+end

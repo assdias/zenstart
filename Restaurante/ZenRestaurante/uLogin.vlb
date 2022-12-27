@@ -1,0 +1,15 @@
+﻿[Dados.cdsMesas]
+Visible=False
+
+[Dados.cdsDetalhes]
+Visible=False
+
+[Dados.cdsProdutos]
+Visible=False
+
+[Dados.cdsOrigem]
+Visible=False
+
+[Dados.cdsDestino]
+Visible=False
+
